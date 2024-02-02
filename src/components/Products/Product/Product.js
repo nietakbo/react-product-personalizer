@@ -1,6 +1,6 @@
 import styles from './Product.module.scss';
-import ProductImage from '../ProductImage/ProductImage';
-import ProductForm from '../ProductForm/ProductForm';
+import ProductImage from './ProductImage/ProductImage';
+import ProductForm from './ProductForm/ProductForm';
 import { useMemo, useState } from 'react';
 import propTypes from 'prop-types';
 

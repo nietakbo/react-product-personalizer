@@ -1,7 +1,7 @@
-import Button from '../Button/Button';
+import Button from './Button/Button';
 import styles from './ProductForm.module.scss';
-import OptionColor from '../OptionColor/OptionColor';
-import OptionSize from '../OptionSize/OptionSize';
+import OptionColor from './OptionColor/OptionColor';
+import OptionSize from './OptionSize/OptionSize';
 import propTypes from 'prop-types';
 
 const ProductForm = ({ addToCart, sizes, setCurrentSize, currentSize, colors, currentColor, setCurrentColor }) => {
